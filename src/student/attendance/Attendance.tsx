@@ -1,5 +1,4 @@
-import React from "react";
-
+ 
 export default function StudentAttendance() {
   const rows = [
     { date: "Aug 01, 2025", status: "Present" },

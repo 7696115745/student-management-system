@@ -24,6 +24,7 @@ const userSlice = createSlice({
   reducers: {
      signup: {
       reducer: (state, action: PayloadAction<SignUp>) => {
+         console.log(state)
 return action.payload
 },
       prepare: (user_name:boolean, user_email: string, user_number: Number, user_role: string, user_password: string) => {
@@ -34,6 +35,7 @@ return action.payload
     },
      signIn: {
       reducer: (state, action: PayloadAction<SignIn>) => {
+         console.log(state)
 return action.payload
 },
       prepare: ( user_email: string, user_password: string) => {
@@ -44,6 +46,7 @@ return action.payload
     },
      forgetPassword: {
       reducer: (state, action: PayloadAction<ForgetPassword>) => {
+         console.log(state)
 return action.payload
 },
       prepare: ( user_account: string) => {
@@ -54,6 +57,7 @@ return action.payload
     },
      otpVerification: {
       reducer: (state, action: PayloadAction<Otp>) => {
+         console.log(state)
 return action.payload
 },
       prepare: ( user_otp:string) => {

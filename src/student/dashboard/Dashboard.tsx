@@ -1,5 +1,4 @@
-import React from "react";
-import { FaBookOpen, FaFileAlt, FaClipboardList } from "react-icons/fa";
+ import { FaBookOpen, FaFileAlt, FaClipboardList } from "react-icons/fa";
 
 export default function StudentDashboard() {
   const stats = [

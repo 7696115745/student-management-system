@@ -1,5 +1,4 @@
-import React from "react";
-
+ 
 export default function StudentSettings() {
   return (
     <div className="p-6 space-y-6">

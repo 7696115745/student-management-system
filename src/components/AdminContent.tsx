@@ -15,11 +15,11 @@ const AdminContent: React.FC = () => {
     { name: "Amit Kumar", course: "B.Com", date: "2025-08-08" },
   ];
 
-  const announcements = [
-    "Orientation program for new batch starts 20th Aug.",
-    "Exam schedule will be released on 25th Aug.",
-    "Library will remain closed on 15th Aug for maintenance.",
-  ];
+  // const announcements = [
+  //   "Orientation program for new batch starts 20th Aug.",
+  //   "Exam schedule will be released on 25th Aug.",
+  //   "Library will remain closed on 15th Aug for maintenance.",
+  // ];
 
   return (
     <div className="space-y-6">
